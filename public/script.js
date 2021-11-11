@@ -2,9 +2,15 @@
 let faces = ['DelavalleCristian', 'CardozoGustavo', 'OderaMaica', 'BritoIan', 'JimRhodes', 'DeLavalleMaria', 'TonyStark']
 
 
+<<<<<<< HEAD
 // load all the faceapi content - it is the problem, i need take all that whitout a url 
 
 Promise.all([
+=======
+// load all the faceapi content
+Promise.all([
+
+>>>>>>> a9db7b59cfee3ab552752d6a35004963fb7156a5
     faceapi.nets.tinyFaceDetector.loadFromUri('https://raw.githubusercontent.com/emma9608/Face-Api.Video/master/static/models'),
     faceapi.nets.faceLandmark68Net.loadFromUri('https://raw.githubusercontent.com/emma9608/Face-Api.Video/master/static/models'),
     faceapi.nets.faceExpressionNet.loadFromUri('https://raw.githubusercontent.com/emma9608/Face-Api.Video/master/static/models'),
